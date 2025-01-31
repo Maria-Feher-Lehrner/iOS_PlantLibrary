@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22D68" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Light" representedClassName="Light" syncable="YES" codeGenerationType="class">
+        <attribute name="intensityLight" optional="YES" attributeType="Integer 16" minValueString="1" maxValueString="4" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Location" representedClassName="Location" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="position" optional="YES" attributeType="String"/>
+        <attribute name="room" optional="YES" attributeType="String"/>
+        <relationship name="light" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Light"/>
+        <relationship name="plants" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Plant" inverseName="location" inverseEntity="Plant"/>
+    </entity>
+    <entity name="Plant" representedClassName="Plant" syncable="YES" codeGenerationType="class">
+        <attribute name="botanicalName" optional="YES" attributeType="String"/>
+        <attribute name="givenName" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="profileImage" optional="YES" attributeType="Binary"/>
+        <attribute name="requirementFrequencyFertilizer" optional="YES" attributeType="Integer 16" minValueString="1" maxValueString="3" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="requirementFrequencyWater" optional="YES" attributeType="Integer 16" minValueString="1" maxValueString="3" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="statusFertilizer" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="statusWater" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="light" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Light"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="plants" inverseEntity="Location"/>
+    </entity>
+</model>

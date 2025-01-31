@@ -1,0 +1,86 @@
+/* 
+  Localizable.strings
+  PlantBase
+
+  Created by user on 23.01.25.
+  
+*/
+
+//++++GLOBAL++++
+"Save" = "Save";
+"Save_changes" = "Save changes";
+"Add" = "Add";
+"Botanical_name" = "Botanical name";
+"2/w" = "twice/week";
+"1/w" = "once/week";
+"0.5/w" = "every 2nd week";
+"2/m" = "twice/month";
+"1/m" = "once/month";
+"0.5/m" = "evr. 2nd month";
+"low" = "low";
+"m-low" = "med-low";
+"m-high" = "med-high";
+"high" = "high";
+
+
+//++++START-VIEW++++
+"TITLE" = "PLANTBASE";
+"Subtitle" = "Your little at home phytothek.";
+"Check_blooms" = "Check on your blooms";
+"Plant_catalogue" = "Plant catalogue";
+"New_Plant" = "Got a new green friend?";
+"Location_prompt" = "Where do your plants live?";
+"Locations" = "Plant Bases";
+
+
+//++++PLANTS-VIEW++++
+"Leafy_Friend" = "Your Leafy Friends";
+"Anonymous" = "Anonymous Plant";
+"Unknown" = "Unknown Room";
+
+
+//++++PLANT-REGISTRATION-VIEW++++
+"Photo" = "Pick a photo";
+"Name" = "Give your Friend a Name";
+"Light" = "Required light";
+"Water" = "Check water";
+"Fertilizer" = "Needs fertilizer";
+"Location" = "Select location";
+
+
+//++++PLANTPROFILE-VIEW++++
+"Plant_profile" = "Plant Profile";
+"Change_photo" = "change photo";
+"Plant_details" = "Plant details";
+"Given_name" = "Given name";
+"Requirements" = "Requirements";
+"Water_Frequency" = "Water frequency";
+"Fertilizer_Frequency" = "Fertilizer frequency";
+"Light_Intensity" = "Light Intensity";
+"Status" = "Status";
+"Watered" = "Watered";
+"Fertilized" = "Fertilized";
+
+
+//++++LOCATIONS-VIEW++++
+"Add_Location" = "Add New Location";
+
+
+//++++LOCATION-REGISTRATION-VIEW++++
+"New_Location" = "New Location";
+"Location_Details" = "Location Details";
+"Room" = "Room";
+"Position" = "Position";
+"Light_Intensity" = "Light Intensity";
+"Ass_Plants" = "Associated Plants";
+"No_Plants" = "No plants associated with this location.";
+
+
+//++++NOTIFICATION-DELEGATE++++
+"Water_Reminder" = "Water Reminder";
+"test_reminder_body" = "This is a test reminder for: %@";
+"plant_reminder_water" = "Time to check water for: %@";
+"Fertilizer_Reminder" = "Fertilizer Reminder";
+"plant_reminder_fertilizer" = "Time to feed: %@";
+
+

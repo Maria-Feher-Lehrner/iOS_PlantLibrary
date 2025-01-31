@@ -1,0 +1,62 @@
+/* 
+  Localizable.strings
+  PlantBase
+
+  Created by user on 20.01.25.
+  
+*/
+
+//++++GLOBAL++++
+"Save" = "Save";
+"Add" = "Add";
+
+//++++START-VIEW++++
+"TITLE" = "PLANTBASE";
+"Subtitle" = "Your little at home phytothek.";
+"Check_blooms" = "Check on your blooms";
+"Plant_catalogue" = "Plant catalogue";
+"New_Plant" = "Got a new green friend?";
+
+"Loction_prompt" = "Where do your plants live?";
+"Locations" = "Plant Bases";
+
+//++++PLANT-REGISTRATION-VIEW++++
+"Photo" = "Pick a photo";
+"Name" = "Give your Friend a Name";
+"Botanical name" = "Botanical name";
+"Light" = "Required light";
+"low" = "low";
+"m-low" = "medium-low";
+"m-high" = "medium-high";
+"high" = "high";
+"Water" = "Check water";
+"2/w" = "twice a week";
+"1/w" = "once a week";
+"0.5/w" = "every two weeks";
+"Fertilizer" = "Needs fertilizer";
+"2/m" = "twice a month";
+"1/m" = "once a month";
+"0.5/m" = "every 2nd month";
+"Location" = "Select location";
+
+
+
+//++++PLANTPROFILE-VIEW++++
+
+
+//++++LOCATIONS-VIEW++++
+"Add_Location" = "Add New Location";
+
+
+
+//++++LOCATION-REGISTRATION-VIEW++++
+"New_Location" = "New Location";
+"Location_Details" = "Location Details";
+"Room" = "Room";
+"Position" = "Position";
+"Light_Intensity" = "Light Intensity";
+"Ass_Plants" = "Associated Plants";
+"No_Plants" = "No plants associated with this location.";
+
+
+

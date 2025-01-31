@@ -1,0 +1,85 @@
+/* 
+  Localizable.strings
+  PlantBase
+
+  Created by user on 23.01.25.
+  
+*/
+
+//++++GLOBAL++++
+"Save" = "Speichern";
+"Save_changes" = "Änderungen speichern";
+"Add" = "Hinzufügen";
+"Botanical_name" = "Botanischer Name";
+"2/w" = "2x/Woche";
+"1/w" = "1x/Woche";
+"0.5/w" = "alle 2 Wochen";
+"2/m" = "2x/Monat";
+"1/m" = "1x/Monat";
+"0.5/m" = "alle 2 Monate";
+"low" = "dunkel";
+"m-low" = "schattig";
+"m-high" = "hell";
+"high" = "sonnig";
+
+
+//++++START-VIEW++++
+"TITLE" = "PLANTBASE";
+"Subtitle" = "Deine kleine Heim-Phytothek.";
+"Check_blooms" = "Schau nach deinen Pflanzen";
+"Plant_catalogue" = "Pflanzenkatalog";
+"New_Plant" = "Neuer grüner Freund?";
+"Location_prompt" = "Wo stehen deine Pflanzen?";
+"Locations" = "Plant Bases";
+
+
+//++++PLANTS-VIEW++++
+"Leafy_Friend" = "Deine blättrigen Freunde";
+"Anonymous" = "Anonyme Pflanze";
+"Unknown" = "Unbekannter Raum";
+
+
+//++++PLANT-REGISTRATION-VIEW++++
+"Photo" = "Wähle ein Foto";
+"Name" = "Gib deinem Freund einen Namen";
+"Light" = "Benötigtes Licht";
+"Water" = "Wasser prüfen";
+"Fertilizer" = "Benötigt Dünger";
+"Location" = "Standort auswählen";
+
+
+//++++PLANTPROFILE-VIEW++++
+"Plant_profile" = "Pflanzenprofil";
+"Change_photo" = "Foto ändern";
+"Plant_details" = "Pflanzendetails";
+"Given_name" = "Rufname";
+"Requirements" = "Anforderungen";
+"Water_Frequency" = "Gießen";
+"Fertilizer_Frequency" = "Düngen";
+"Light_Intensity" = "Lichtbedarf";
+"Status" = "Status";
+"Watered" = "Gegossen";
+"Fertilized" = "Gedüngt";
+
+
+//++++LOCATIONS-VIEW++++
+"Add_Location" = "Neue Plant Base hinzufügen";
+
+
+
+//++++LOCATION-REGISTRATION-VIEW++++
+"New_Location" = "Neue Plant Base";
+"Location_Details" = "Standortdetails";
+"Room" = "Raum";
+"Position" = "Position";
+"Light_Intensity" = "Lichtintensität";
+"Ass_Plants" = "Zugehörige Pflanzen";
+"No_Plants" = "Keine Pflanzen mit diesem Standort verknüpft.";
+
+
+//++++NOTIFICATION-DELEGATE++++
+"Water_Reminder" = "Erinnerung: Gießen!";
+"test_reminder_body" = "Dies ist eine Testerinnerung für: %@";
+"plant_reminder_water" = "Zeit, Feuchtigkeit zu prüfen für: %@";
+"Fertilizer_Reminder" = "Dünger-Erinnerung";
+"plant_reminder_fertilizer" = "Zeit, zu düngen: %@";
